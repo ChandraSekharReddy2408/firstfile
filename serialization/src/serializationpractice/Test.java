@@ -9,6 +9,8 @@ public class Test  implements Serializable
   private Integer age;
   private String vill;
   private Double sal;
+  private String identity;
+  private Character guide;
   
   
 public String getVill() {
