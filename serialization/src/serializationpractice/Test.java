@@ -11,6 +11,7 @@ public class Test  implements Serializable
   private Double sal;
   private String identity;
   private Character guide;
+  private Integer size;
   
   
 public String getVill() {
