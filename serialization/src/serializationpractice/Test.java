@@ -12,6 +12,8 @@ public class Test  implements Serializable
   private String identity;
   private Character guide;
   private Integer size;
+  private Integer size2;
+  private Integer size3;
   
   
 public String getVill() {
