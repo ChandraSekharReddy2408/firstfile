@@ -7,8 +7,33 @@ public class Test  implements Serializable
   private Integer id;
   private String name;
   private Integer age;
+  private String vill;
+  private Double sal;
+  private String identity;
+  private Character guide;
+  private Integer size;
   
   
+public String getVill() {
+	return vill;
+}
+
+
+public void setVill(String vill) {
+	this.vill = vill;
+}
+
+
+public Double getSal() {
+	return sal;
+}
+
+
+public void setSal(Double sal) {
+	this.sal = sal;
+}
+
+
 public Test(Integer id, String name, Integer age) {
 	super();
 	this.id = id;
